@@ -68,7 +68,7 @@ CREATE TABLE `Students` (
 
 LOCK TABLES `Students` WRITE;
 /*!40000 ALTER TABLE `Students` DISABLE KEYS */;
-INSERT INTO `Students` VALUES ('a1111111','Fang','Li','BE(Hons)(Soft)'),('a1111112','Jane','Brown','BE(Hons)(Soft)'),('a1111113','Bob','Smith','BCompSc'),('a1111114','Wei','Zhang','BCompSc');
+INSERT INTO `Students` VALUES ('Fang','Li','BE(Hons)(Soft)','a1111111'),('Jane','Brown','BE(Hons)(Soft)','a1111112'),('Bob','Smith','BCompSc','a1111113'),('Wei','Zhang','BCompSc','a1111114');
 /*!40000 ALTER TABLE `Students` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -105,4 +105,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-21  2:18:48
+-- Dump completed on 2023-04-21  2:27:38
